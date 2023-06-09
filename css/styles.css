@@ -4,8 +4,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-img {
-  width: 200px;
+.mainimg {
+  width: 600px;
   height: auto;
 }
 
@@ -43,10 +43,75 @@ a {
 
 .main {
   display: flex;
+  align-items: center;
+  align-content: center;
+  gap:50px;
+
+
 }
 
 .hero {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  margin: 0px;
+}
+
+.hero2 {
+ font-size: 18px;
+ color: #e5e7db;
+ margin-top:0px;
+ flex-wrap: wrap;
+}
+
+.herobutton {
+  border: none;
+  border-radius: 8px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:30px;
+  padding-right:30px;
+  background-color:#3882f6;
+  color: #e5e7db;
+}
+
+.aligner {
+  display: flex;
+  justify-content: center;
+ margin-top:100px;
+ margin-bottom:100px;
+}
+
+.maintext {
+  width:450px;
+}
+
+.layout {
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  background-color: #f9faf8;
+  display: flex;
+  gap:200px;
+  /*cambia el gap por algo mejor*/
+}
+
+.cardimg {
+  width:600px;
+  height: 400px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Quote {
+  
 }
