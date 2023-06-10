@@ -103,6 +103,7 @@ a {
 .cardimg {
   width:600px;
   height: 400px;
+  border-radius: 20px;
 }
 
 .card {
@@ -113,5 +114,5 @@ a {
 }
 
 .Quote {
-  
+  background-color: #e5e7eb;
 }
