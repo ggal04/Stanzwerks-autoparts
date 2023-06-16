@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: #1f2937;
+  background-color: #001011;
 }
 
 /*purely for org*/
@@ -71,7 +71,7 @@ a {
   padding-bottom:5px;
   padding-left:30px;
   padding-right:30px;
-  background-color:#3882f6;
+  background-color:#ff0000;
   color: #e5e7db;
 }
 
@@ -115,4 +115,8 @@ a {
 
 .Quote {
   background-color: #e5e7eb;
+}
+.logoimg {
+  height:auto;
+  width:300px;
 }
