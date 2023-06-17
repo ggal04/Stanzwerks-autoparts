@@ -22,6 +22,7 @@ body {
   margin: 0px;
   flex-direction: row;
   display: flex;
+  padding: 10px;
 }
 
 .hlist {
@@ -31,18 +32,20 @@ body {
   list-style: none;
   align-items: center;
   justify-content: flex-end;
-  width:100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .hlogo {
   font-size: 24px;
   color: #f9faf8;
-  margin: auto;
-  justify-content: flex-start;
+  margin-right: auto;
 }
 a {
   font-size: 18px;
   color: #e5e7eb;
+  cursor: pointer;
 }
 
 .main {
@@ -70,12 +73,14 @@ a {
 .herobutton {
   border: none;
   border-radius: 8px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 30px;
   padding-right: 30px;
   background-color: #ff0000;
   color: #e5e7db;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .aligner {
@@ -94,15 +99,16 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section {
   background-color: #f9faf8;
   display: flex;
-  gap:100px;
+  gap: 100px;
   padding: 100px;
   padding-top: 0%;
-  /*cambia el gap por algo mejor*/
+  flex-wrap: wrap;
 }
 
 .cardimg {
@@ -123,7 +129,7 @@ a {
 .Quote {
   background-color: #e5e7eb;
   background-image: url("../img/quotebg.jpeg");
-  background-size:cover;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,4 +168,77 @@ a {
 }
 .layouttop {
   padding: 20px;
+}
+.cardsub {
+  text-align: center;
+}
+
+.interaction {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.interactionbox {
+  background-color: #ff0000;
+  flex-direction: row;
+  display: flex;
+  margin: 0px;
+  border-radius: 10px;
+  width: 1100px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxhead {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.boxfiller {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.boxprompt {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #e5e7eb;
+}
+
+.boxbutton {
+  margin: 20px;
+  border: 1px solid #f9faf8;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ff0000;
+  color: #e5e7db;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttonside {
+  margin: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ff0000;
+  color: #e5e7db;
+}
+
+.footer {
+  background-color: #161818;
+  padding: 30px;
+  color: #3f3f3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
