@@ -42,7 +42,7 @@ body {
   color: #f9faf8;
   margin-right: auto;
 }
-a {
+.litem {
   font-size: 18px;
   color: #e5e7eb;
   cursor: pointer;
